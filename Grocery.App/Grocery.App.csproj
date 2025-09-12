@@ -13,6 +13,7 @@
 		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
 		<!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
 
+        <!-- test -->
         <!-- Toegevoegd voor GitHub/MacOS:-->
         <RuntimeIdentifiers>android-arm64;android-x86;android-x64;ios-arm64;maccatalyst-x64</RuntimeIdentifiers>
         
