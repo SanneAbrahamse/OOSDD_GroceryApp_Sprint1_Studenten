@@ -22,7 +22,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Installeer MAUI workloads
-        run: dotnet workload install maui-maccatalyst
+        run: dotnet workload restore
 
       - name: Herstel afhankelijkheden
         run: dotnet restore
