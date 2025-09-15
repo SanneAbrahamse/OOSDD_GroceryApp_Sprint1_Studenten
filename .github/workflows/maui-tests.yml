@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: macOS-latest
+    runs-on: macOS-13
     steps:
       - name: Haal de repository op
         uses: actions/checkout@v4
